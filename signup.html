@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form method="POST" action="signup.php">
+        <h2>Student Sign Up</h2>
+
+        <label>First Name:</label>
+        <input type="text" name="first_name" required>
+
+        <label>Last Name:</label>
+        <input type="text" name="last_name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Password:</label>
+        <input type="password" name="password" required>
+
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="">--Select Course--</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Business Management">Business Management</option>
+        </select>
+
+        <label>Level:</label>
+        <select name="level" required>
+            <option value="">--Select Level--</option>
+            <option value="Degree">Degree</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Certificate">Certificate</option>
+        </select>
+
+        <label>Gender:</label>
+        <select name="gender" required>
+            <option value="">--Select Gender--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <label>Phone Number:</label>
+        <input type="text" name="phone" required>
+
+        <label>Country:</label>
+        <input type="text" name="country" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
